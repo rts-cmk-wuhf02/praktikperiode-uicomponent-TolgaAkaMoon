@@ -1,42 +1,68 @@
-# praktikperiode-uicomponents
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![](https://github.com/rts-cmk-opgaver/praktikperiode-uicomponents/blob/master/hero.jpg)
+## Available Scripts
 
-## Opgavebeskrivelse
+In the project directory, you can run:
 
-I den kommende praktikperiode skal i arbejde med **React** og **Contenful**. Der skal udvikles en kollektion af UI komponenter.<br>
-Kompenterne skal udvikles i ReactJS og komponenternes indhold som ex. tekster, billeder etc. skal hostes på platformen contentful. De færdige komponenterne skal præsenteres i en React applikation på samme måde som de også er præstenteret i design filen.
+### `npm start`
 
-**Github**<br>
-   1. Der **skal pushes dagligt**, så du har en backup online i tilfælde af computer nedbrud og andet. 
-   2. De enkelte komponenter **skal udvikles på selvstændige branches**.
-   3. Der **skal foretages et merge til master** når et komponenet er færdigt.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-**Komponenter**<br>
-Ved første øjekast ligner flere komponenter hinanden, men det er ikke helt tilfældet når man kikker lidt nærmere. Det kan være små forskelle som fx. farven på en overskrift som differentiere. Nogen komponenter er såkaldte sub-komponenter fordi de bruges inde i andre komponenter. Andre komponenter er interaktive fordi der er funktionakitet som "like", galleri eller view more integreret.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-**Start med at**<br>
-Analysere komponenterne og gå herefter igang med at udvikle de komponenter der udgør sub-komponenter. Det er vigtigt at du sikre dig at enkelte "elementer" ikke udvikles mere end én gang! Går noget igen, er der *formentligt* et komponent...
+### `npm test`
 
-## Formål
-Opgavens formål er at opbygge en vis rutine og erfaring i de arbejdsgang som du er blevet præsenteret for og har arbejdet med i sidste skoleperiode, og som er nødvendige for at arbejde effektivt eller med andre ord – smartere :)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-![Alt Text](https://github.com/rts-cmk-opgaver/praktikperiode-uicomponents/blob/master/giphy.gif)
+### `npm run build`
 
-## Varighed
-Du har 8 arbejdsdage til at løse praktikopgaven.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Applikation tech stack
-ReactJS<br>
-CSS in JS<br>
-Contentful<br>
-Github (deployment)<br>
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Matrialer
-Du skal downloade XD filen herfra: https://bit.ly/2Xkqsbm
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Aflevering
-Aflevering torsdag d. 4 Juni.<br>
-Du har afleveret når din applikation er hostet på github pages og linket hertil er sat ind herunder.<br><br>
-**Projekt url:** Skriv din github pages adresse her!!!
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
