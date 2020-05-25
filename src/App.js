@@ -1,5 +1,5 @@
 import React from 'react';
-import maldives from 'maldives.js';
+import maldives from './maldives.js';
 import logo from './logo.svg';
 import './App.css';
 
