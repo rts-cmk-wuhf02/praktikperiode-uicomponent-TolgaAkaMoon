@@ -1,13 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
+// Components
+import Maladives from './assets/components/maldives/app';
+import Outdoor from './assets/components/outdoor/app';
+import Parcelbox from './assets/components/parcelbox/app';
+import Offthegrid from './assets/components/offthegrid/app';
+import Mustsee from './assets/components/mustsee/app';
+import Latestnews from './assets/components/latestnews/app';
+import Food from './assets/components/food/app';
+import Tecture from './assets/components/tecture/app';
+import Visual from './assets/components/visual/app';
+import Readmore from './assets/components/readmore/app';
+
+
 import * as serviceWorker from './serviceWorker';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
+    <Maladives/>
+    <Outdoor/>
+{/*     <Parcelbox/>
+    <Offthegrid/>
+    <Mustsee/>
+    <Latestnews/>
+    <Food/>
+    <Tecture/>
+    <Visual/>
+    <Readmore/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
