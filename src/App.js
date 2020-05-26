@@ -1,5 +1,6 @@
 import React from 'react';
 import maldives from './components/maldives/maldives.js';
+
 import './App.css';
 
 function App() {
