@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap');
+
+
+.Maldives__App {
+  margin: 0;
+  padding: 0;
+  width: 372px;
+  height: 471px;
+  border-radius: 10px;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App__background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 372px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App__subtitle {
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  color: #33439B;
+  font-weight: bold;
+  font-size: 11px;
+  margin-left: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App__title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App__desc {
+  color: #7B8591;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  width: 291px;
+  text-align: left;
+  margin-left: 30px;
+  height: 88px;
 }
