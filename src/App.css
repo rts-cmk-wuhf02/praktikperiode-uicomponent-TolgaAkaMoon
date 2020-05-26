@@ -7,25 +7,39 @@
   width: 372px;
   height: 471px;
   border-radius: 10px;
+  background-color: white;
 }
 
 .App__background {
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 372px;
+}
+
+.App__subtitle {
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  color: #33439B;
+  font-weight: bold;
+  font-size: 11px;
+  margin-left: 30px;
 }
 
 .App__title {
-  text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 28px;
+  margin-left: 30px;
 }
 
 .App__desc {
   color: #7B8591;
-  text-align: center;
   font-family: 'Roboto', sans-serif;
+  font-weight: 600;
   font-size: 16px;
-  width: 500px;
-  height: 88px;
   width: 291px;
+  text-align: left;
+  margin-left: 30px;
+  height: 88px;
 }
