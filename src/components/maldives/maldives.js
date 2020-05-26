@@ -10,8 +10,10 @@ client.getEntry('5O9j1gQcUP6hW2P97ijQho') // entry id
 .then((entry) => {
   client.getAsset('FvGs7cE6JQajg3Yezj7e3') // asset id
   .then((asset) => 
-  document.querySelector(".App__background").setAttribute("src", asset.fields.file.url))
-  document.querySelector(".App__title").innerHTML = entry.fields.title
-  document.querySelector(".App__desc").innerHTML = entry.fields.description
+  document.querySelector(".App__background").setAttribute("src", asset.fields.file.url)
+  );
+  document.querySelector(".App__subtitle").innerHTML = entry.fields.subtitle;
+  document.querySelector(".App__title").innerHTML = entry.fields.title;
+  document.querySelector(".App__desc").innerHTML = entry.fields.description;
 })
 .catch(console.error)
