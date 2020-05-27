@@ -22,14 +22,14 @@ ReactDOM.render(
   <React.StrictMode>
     <Maladives/>
     <Outdoor/>
-{/*     <Parcelbox/>
-    <Offthegrid/>
+   <Parcelbox/>
+    { /* <Offthegrid/>
     <Mustsee/>
     <Latestnews/>
     <Food/>
     <Tecture/>
     <Visual/>
-    <Readmore/> */}
+    <Readmore/> */ }
   </React.StrictMode>,
   document.getElementById('root')
 );
