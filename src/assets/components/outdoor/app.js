@@ -8,14 +8,17 @@ function App() {
   return (
     <div className="Outdoor__App" css={css`margin: 0;padding: 0;width: 771px;height: 471px;
     border-radius: 10px;background-color: white;
-    display: block;
+    display: grid;
+    grid-template-column: 1fr 1fr;
+    grid-template-row: 1fr 1fr;
+    
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
     `}>
       <img src="" className="Outdoor__background" alt="Background" css={css`background-size: cover;background-repeat: no-repeat;
-      width: 372px;`}></img>
+      width: 293px;`}></img>
       <p className="Outdoor__button" css={css`margin-top: 30px;font-family: 'Roboto', sans-serif;letter-spacing: 2px;
       color: #33439B;font-weight: bold;font-size: 11px;margin-left: 30px;`}>LEISURE</p>
       <h1 className="Outdoor__title" css={css`font-family: 'Roboto', sans-serif;font-weight: bold;font-size: 45px;

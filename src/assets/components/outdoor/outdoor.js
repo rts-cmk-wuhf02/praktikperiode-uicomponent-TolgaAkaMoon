@@ -10,9 +10,11 @@ client.getEntry('76cAgEMACO3El4X1S50DU5') // entry id
 .then((entry) => {
   client.getAssets('676qA6XWKLOR9gBLO3j9fw') // asset id
   .then((asset) => {
-      console.log(asset.items[0])
-        document.querySelector(".Outdoor__smallimg").setAttribute("src", asset.fields.file.url)
-      document.querySelector(".Outdoor__background").setAttribute("src", asset.fields.file.url)
+      console.log(asset.items[0].fields.file.url)
+      document.querySelector(".Outdoor__background").setAttribute("src", asset.items[4].fields.file.url)
+      document.querySelector(".Outdoor__smallimg").setAttribute("src", asset.items[0].fields.file.url)
+      document.querySelector(".Outdoor__smallimg").setAttribute("src", asset.items[0].fields.file.url)
+      document.querySelector(".Outdoor__smallimg").setAttribute("src", asset.items[0].fields.file.url)
   }
   );
   document.querySelector(".Outdoor__title").innerHTML = entry.fields.title;
