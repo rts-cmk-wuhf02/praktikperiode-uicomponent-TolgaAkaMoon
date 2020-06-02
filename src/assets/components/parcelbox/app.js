@@ -13,11 +13,12 @@ function App() {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+    background-color: #005AEE;
     `}>
-      <img src="" className="Parcelbox__background" alt="Background" css={css`background-size: cover;
+      <img src="" className="Parcelbox__logo" alt="Logo" css={css`background-size: cover;
       background-repeat:
       no-repeat;
-      width: 293px;
+      width: 70px;
       top: 80px;
       margin-left: 50px;
       `}></img>

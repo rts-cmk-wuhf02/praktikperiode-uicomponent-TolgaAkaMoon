@@ -11,7 +11,7 @@ client.getEntry('koq3QVILiLDXBNspfdlKp') // entry id
   client.getAsset('5GoFws2M1OuSvabRXN1YTo') // 1GjiePoOIw8gRVfGnRqNp3asset id
   .then((image) => {
     console.log(image)  
-document.querySelector(".Parcelbox__background").setAttribute("src", asset.fields.file.url)});
+document.querySelector(".Parcelbox__logo").setAttribute("src", asset.fields.file.url)});
   document.querySelector(".Parcelbox__title").innerHTML = entry.fields.title;
   document.querySelector(".Parcelbox__desc").innerHTML = entry.fields.description;
 })
