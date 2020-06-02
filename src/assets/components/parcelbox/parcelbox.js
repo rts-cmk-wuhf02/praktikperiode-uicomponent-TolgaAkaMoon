@@ -8,15 +8,6 @@ const client = contentful.createClient({
 
 client.getEntry('76cAgEMACO3El4X1S50DU5') // entry id
 .then((entry) => {
-  client.getAssets('676qA6XWKLOR9gBLO3j9fw') // asset id
-  .then((asset) => {
-    console.log(asset.items)
-      document.querySelector(".Outdoor__background").setAttribute("src", asset.items[4].fields.file.url)
-      document.querySelector(".Outdoor__smallimg1").setAttribute("src", asset.items[0].fields.file.url)
-      document.querySelector(".Outdoor__smallimg2").setAttribute("src", asset.items[1].fields.file.url)
-      document.querySelector(".Outdoor__smallimg3").setAttribute("src", asset.items[2].fields.file.url)
-  }
-  );
   document.querySelector(".Outdoor__title").innerHTML = entry.fields.title;
   document.querySelector(".Outdoor__desc").innerHTML = entry.fields.description;
 })
