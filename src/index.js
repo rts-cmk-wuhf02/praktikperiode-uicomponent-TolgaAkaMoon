@@ -21,7 +21,7 @@ ReactDOM.render(
     <Maladives/>
     <Outdoor/>
    <Parcelbox/>
-{/*     <Offthegrid/>
+{/* <Offthegrid/>
     <Mustsee/>
     <Latestnews/>
     <Food/>
