@@ -9,9 +9,9 @@ const client = contentful.createClient({
 client.getEntry('koq3QVILiLDXBNspfdlKp') // entry id
 .then((entry) => {
     client.getAsset('5GoFws2M1OuSvabRXN1YTo')
-    .then((asset) => document.querySelector(".Parcelbox__logo").setAttribute("src", asset.fields.file.url))
+    .then((asset) => document.querySelector(".Ontime__logo").setAttribute("src", asset.fields.file.url))
     .catch(console.error)
-  document.querySelector(".Parcelbox__title").innerHTML = entry.fields.title;
-  document.querySelector(".Parcelbox__desc").innerHTML = entry.fields.description;
+  document.querySelector(".Ontime__title").innerHTML = entry.fields.title;
+  document.querySelector(".Ontime__desc").innerHTML = entry.fields.description;
 })
 .catch(console.error)

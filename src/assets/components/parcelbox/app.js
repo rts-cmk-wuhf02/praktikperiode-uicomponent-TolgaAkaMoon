@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="Parcelbox__App" css={css`margin: 0;padding: 0;width: 270px;height: 272px;
     border-radius: 10px;
-    background-color: #005AEE;
-    grid-column-start: 1;
-    grid-column-end: 2;
+    background-color: #FFA767;
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
     margin-top: 50px;`}>
