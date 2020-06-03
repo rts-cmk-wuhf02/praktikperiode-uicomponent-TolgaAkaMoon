@@ -8,7 +8,7 @@ const client = contentful.createClient({
 
 client.getEntry('76cAgEMACO3El4X1S50DU5') // entry id
 .then((entry) => {
-  client.getAsset('676qA6XWKLOR9gBLO3j9fw')
+client.getAsset('676qA6XWKLOR9gBLO3j9fw')
 .then((asset) => document.querySelector(".Outdoor__background").setAttribute("src", asset.fields.file.url))
 .catch(console.error)
 client.getAsset('4RT5UGwvs9hOaeAM3KJx6X')

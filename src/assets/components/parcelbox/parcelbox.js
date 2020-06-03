@@ -6,9 +6,12 @@ const client = contentful.createClient({
   accessToken: 'yR2gL3HeWPJLJS2umEzQG38R-N1ACaHaWq4_TVFO5F0' // contentful access token
 })
 
-client.getEntry('76cAgEMACO3El4X1S50DU5') // entry id
+client.getEntry('koq3QVILiLDXBNspfdlKp') // entry id
 .then((entry) => {
-  document.querySelector(".Outdoor__title").innerHTML = entry.fields.title;
-  document.querySelector(".Outdoor__desc").innerHTML = entry.fields.description;
+    client.getAsset('5GoFws2M1OuSvabRXN1YTo')
+    .then((asset) => document.querySelector(".Parcelbox__logo").setAttribute("src", asset.fields.file.url))
+    .catch(console.error)
+  document.querySelector(".Parcelbox__title").innerHTML = entry.fields.title;
+  document.querySelector(".Parcelbox__desc").innerHTML = entry.fields.description;
 })
 .catch(console.error)
