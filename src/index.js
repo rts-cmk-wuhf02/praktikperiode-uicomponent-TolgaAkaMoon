@@ -6,7 +6,7 @@ import './index.css';
 import Maladives from './assets/components/maldives/app';
 import Outdoor from './assets/components/outdoor/app';
 import Parcelbox from './assets/components/parcelbox/app';
-import Ontime from './assets/components/On-time/app';
+import Ontime from './assets/components/on-time/app';
 /*import Offthegrid from './assets/components/offthegrid/app'; // eslint-disable-line no-unused-vars
 import Mustsee from './assets/components/mustsee/app'; // eslint-disable-line no-unused-vars
 import Latestnews from './assets/components/latestnews/app'; // eslint-disable-line no-unused-vars
