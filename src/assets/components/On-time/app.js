@@ -13,11 +13,11 @@ function App(props) {
   })
   client.getEntry(props.contentEntryId) // entry id
   .then((entry) => {
+    document.querySelector(`${props.class}__title`).innerHTML = entry.fields.title;
+    document.querySelector(`${props.class}__desc`).innerHTML = entry.fields.description;
     client.getAsset('5GoFws2M1OuSvabRXN1YTo')
     .then((asset) => document.querySelector(`${props.class}__logo`).setAttribute("src", asset.fields.file.url))
     .catch(console.error)
-    document.querySelector(`${props.class}__title`).innerHTML = entry.fields.title;
-    document.querySelector(`${props.class}__desc`).innerHTML = entry.fields.description;
   })
   .catch(console.error)
   
@@ -38,5 +38,7 @@ function App(props) {
     </div>
   );
 }
+
+
 
 export default App;
