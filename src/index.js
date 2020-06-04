@@ -20,10 +20,10 @@ ReactDOM.render(
   <React.StrictMode>
     <Maladives/>
     <Outdoor/>
-    <Ontime class="Ontime" bgcolor="#005AEE" contentEntryId="koq3QVILiLDXBNspfdlKp" />
+{/*     <Ontime class="Ontime" bgcolor="#005AEE" contentEntryId="koq3QVILiLDXBNspfdlKp" />
     <Ontime class="Parcel" bgcolor="#FFA767" contentEntryId="5MGCEKtVNZ8B4IYXpegdd1" />
     <Ontime class="Quality" bgcolor="#0AACDC" contentEntryId="NGpzHSIdEoyXCSTBjRwBL" />
-    <Ontime class="Customer" bgcolor="#597AEF" contentEntryId="Rt1iktZM7wwSKkD1xOltk" />
+    <Ontime class="Customer" bgcolor="#597AEF" contentEntryId="Rt1iktZM7wwSKkD1xOltk" /> */}
     {/*
     <Mustsee/>
     <Latestnews/>
