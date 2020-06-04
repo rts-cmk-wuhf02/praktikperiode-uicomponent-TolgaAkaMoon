@@ -20,10 +20,10 @@ ReactDOM.render(
   <React.StrictMode>
     <Maladives/>
     <Outdoor/>
-    <Ontime class="Ontime" bgcolor="#005AEE" contentEntryId="koq3QVILiLDXBNspfdlKp" />
-    <Ontime class="Parcel" bgcolor="#FFA767" contentEntryId="5MGCEKtVNZ8B4IYXpegdd1" />
-    <Ontime class="Quality" bgcolor="#0AACDC" contentEntryId="NGpzHSIdEoyXCSTBjRwBL" />
-    <Ontime class="Customer" bgcolor="#597AEF" contentEntryId="Rt1iktZM7wwSKkD1xOltk" />
+    <Ontime class="Ontime" bgcolor="#005AEE" contentEntryId="koq3QVILiLDXBNspfdlKp" assetId="5GoFws2M1OuSvabRXN1YTo" />
+    <Ontime class="Parcel" bgcolor="#FFA767" contentEntryId="5MGCEKtVNZ8B4IYXpegdd1" assetId="4rr0tlEyKzbC8KIjl9XUCB"/>
+    <Ontime class="Quality" bgcolor="#0AACDC" contentEntryId="NGpzHSIdEoyXCSTBjRwBL" assetId="2xU96Z31UssdZ0gy7z2ieD"/>
+    <Ontime class="Customer" bgcolor="#597AEF" contentEntryId="Rt1iktZM7wwSKkD1xOltk" assetId="7GCUNmBVcouXryYzKgb1pw"/>
     {/*
     <Mustsee/>
     <Latestnews/>

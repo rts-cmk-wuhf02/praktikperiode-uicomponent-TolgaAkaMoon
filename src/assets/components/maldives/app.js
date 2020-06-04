@@ -8,8 +8,7 @@ function App() {
   return (
     <div className="Maldives__App" css={css`margin: 0;padding: 0;width: 372px;height: 471px;
     border-radius: 10px;background-color: white;
-    grid-column-start: 1;
-    grid-column-end: 2;
+    position: absolute;
     grid-row-start: 1;
     grid-row-end: 2;`}>
       <img src="" className="App__background" alt="Background" css={css`background-size: cover;background-repeat: no-repeat;

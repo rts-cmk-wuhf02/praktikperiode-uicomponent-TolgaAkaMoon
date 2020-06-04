@@ -9,8 +9,9 @@ function App() {
     <div className="Outdoor__App" css={css`margin: 0;padding: 0;width: 771px;height: 471px;
     border-radius: 10px;background-color: white;
     display: block; 
+    margin-left: 123px;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
     `}>
